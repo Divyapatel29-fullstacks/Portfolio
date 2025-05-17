@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Divya's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="JavaScript.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Divya's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="toggle-dark" onclick="toggleDarkMode()">🌙</button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <img src="valorant.jpg" alt="Profile" class="profile-pic"/>
+    <h2>Hi,Welcome to  Divya's Company</h2>
+    <p>A 10th grade student, web developer & gamer 🎮</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m currently in 10th standard, learning web development. I love building websites and playing games. I want to become a full-stack developer in the future.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (Learning)</li>
+      <li>Gaming Strategy</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>My First Website</h3>
+      <p>A basic personal webpage using HTML & CSS.</p>
+    </div>
+    <div class="project-card">
+      <h3>Gaming UI Design</h3>
+      <p>Designed a cool layout for a game dashboard (UI only).</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Connect with me:</p>
+    <div class="social-links">
+      <a href="https://github.com/Divyapatel29-fullstacks" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/divyp_atel29/#" target="_blank">Instagram</a>
+      <a href="https://x.com/PixelCraft9425" target="_blank">Twitter</a>
+    </div>
+    <p>© 2025 Divya Patel</p>
+  </footer>
+</body>
+</html>
